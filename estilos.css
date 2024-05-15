@@ -1,0 +1,182 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Slab:wght@100&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500&display=swap');
+
+*
+{
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell;
+}
+
+body
+{
+background-image: url(img/bg.jpg);
+background-size: cover;
+width: 99vw;
+
+}
+
+.container
+{
+    width: 99vw;
+    display: flex;
+    justify-content: center;
+    margin-bottom: 3rem;
+}
+
+#titulo
+{
+    background-color: blueviolet;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 20rem;
+    border-radius: 5px;
+    box-shadow: 10px 10px black;
+    
+}
+
+h1
+{
+    font-size: 100;
+    color: #ffff;
+}
+.x
+{
+    background-color: red;
+    border: none;
+    position: relative;
+    margin-left: 5rem;
+}
+
+.x:hover
+{
+    cursor: pointer;
+}
+
+.tarea
+{
+    background-color: whitesmoke;
+    font-size: x-large;
+    width: 80%;
+    height: 5rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 10px;
+    box-shadow: 10px 10px black;
+    margin-bottom: 2rem;
+}
+
+
+
+.tarea:hover
+{
+	-webkit-animation: vibrate-1 0.3s linear infinite both;
+	        animation: vibrate-1 0.3s linear infinite both;
+}
+
+
+#lista-tareas
+{
+    flex-direction: column;
+   
+    align-items: center;
+}
+
+textarea
+{
+    width: 50%;
+    border-radius: 10px;
+    margin-bottom: 2rem;
+    font-size: x-large;
+}
+
+
+#insertar-tareas button
+{
+width: 20%;
+height: 40%;
+background-color: aqua;
+border: none;
+border-radius: 10px;
+font-size: x-large;
+box-shadow: 10px 10px black;
+}
+
+#insertar-tareas button:hover
+{
+cursor: pointer;
+}
+
+#insertar-tareas button:active
+{
+    background-color: rgb(29, 175, 201);
+}
+
+
+#insertar-tareas
+{
+    height: 10rem;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 15rem;
+   
+}
+
+
+
+@-webkit-keyframes vibrate-1 {
+    0% {
+      -webkit-transform: translate(0);
+              transform: translate(0);
+    }
+    20% {
+      -webkit-transform: translate(-2px, 2px);
+              transform: translate(-2px, 2px);
+    }
+    40% {
+      -webkit-transform: translate(-2px, -2px);
+              transform: translate(-2px, -2px);
+    }
+    60% {
+      -webkit-transform: translate(2px, 2px);
+              transform: translate(2px, 2px);
+    }
+    80% {
+      -webkit-transform: translate(2px, -2px);
+              transform: translate(2px, -2px);
+    }
+    100% {
+      -webkit-transform: translate(0);
+              transform: translate(0);
+    }
+  }
+  @keyframes vibrate-1 {
+    0% {
+      -webkit-transform: translate(0);
+              transform: translate(0);
+    }
+    20% {
+      -webkit-transform: translate(-2px, 2px);
+              transform: translate(-2px, 2px);
+    }
+    40% {
+      -webkit-transform: translate(-2px, -2px);
+              transform: translate(-2px, -2px);
+    }
+    60% {
+      -webkit-transform: translate(2px, 2px);
+              transform: translate(2px, 2px);
+    }
+    80% {
+      -webkit-transform: translate(2px, -2px);
+              transform: translate(2px, -2px);
+    }
+    100% {
+      -webkit-transform: translate(0);
+              transform: translate(0);
+    }
+  }
+
+
+  
+
+
